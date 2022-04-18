@@ -1,0 +1,39 @@
+.component-button {
+  display: inline-flex;
+  width: 25%;
+  flex: 1 0 auto;
+}
+
+.Button {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component-button button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px;
+  font-size: 1.5rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.component-button button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.component-button.wide {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 4rem;
+  text-align: center;
+}
